@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="pageTitle">Bommadevar Transport – Chicken Manure Supplier</title>
+  <meta name="description" content="Bommadevar Transport – Premium chicken manure supplier in Tamil Nadu, Kerala & Karnataka. Direct from farm to your field via our own lorries." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LANGUAGE MODAL -->
+  <div id="langModal" class="lang-modal-overlay">
+    <div class="lang-modal">
+      <div class="lang-modal-icon">🚛</div>
+      <h2 class="lang-modal-title">பொம்மதேவர் Transport</h2>
+      <p class="lang-modal-sub">மொழியைத் தேர்ந்தெடுக்கவும் / ഭാഷ തിരഞ്ഞെടുക്കുക / ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ</p>
+      <div class="lang-modal-options">
+        <button class="lang-opt-btn" data-lang="en">
+          <span class="lang-flag">🇮🇳</span>
+          <span class="lang-name">English</span>
+        </button>
+        <button class="lang-opt-btn" data-lang="ta">
+          <span class="lang-flag">🌿</span>
+          <span class="lang-name">தமிழ்</span>
+          <span class="lang-sub">Tamil Nadu</span>
+        </button>
+        <button class="lang-opt-btn" data-lang="ml">
+          <span class="lang-flag">🌴</span>
+          <span class="lang-name">മലയാളം</span>
+          <span class="lang-sub">Kerala</span>
+        </button>
+        <button class="lang-opt-btn" data-lang="kn">
+          <span class="lang-flag">🌻</span>
+          <span class="lang-name">ಕನ್ನಡ</span>
+          <span class="lang-sub">Karnataka</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">🚛</div>
+        <div class="logo-text">
+          <span class="logo-main">பொம்மதேவர்</span>
+          <span class="logo-sub" data-i18n="logoSub">Transport &amp; Lorry Service</span>
+        </div>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#benefits" data-i18n="navBenefits">Benefits</a>
+        <a href="#gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#areas" data-i18n="navAreas">Service Areas</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="header-right">
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-current" id="langCurrentBtn">
+            <span id="langCurrentText">EN</span>
+            <i class="fa fa-chevron-down"></i>
+          </button>
+          <div class="lang-dropdown" id="langDropdown">
+            <button data-lang="en">English</button>
+            <button data-lang="ta">தமிழ்</button>
+            <button data-lang="ml">മലയാളം</button>
+            <button data-lang="kn">ಕನ್ನಡ</button>
+          </div>
+        </div>
+        <a href="https://wa.me/919344836317" target="_blank" class="header-cta" data-i18n="headerCta">Order Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape1"></div>
+      <div class="shape shape2"></div>
+      <div class="shape shape3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" data-i18n="heroBadge">🚛 Farm to Field — Our Own Lorries</div>
+      <h1 class="hero-title">
+        <span class="hero-line1" data-i18n="heroLine1">Premium Chicken</span>
+        <span class="hero-line2" data-i18n="heroLine2">Manure Fertilizer</span>
+      </h1>
+      <p class="hero-desc" data-i18n="heroDesc">
+        We buy directly from poultry farms and deliver to your field using our own transport lorries — fresh, fast, and affordable. Serving Tamil Nadu, Kerala &amp; Karnataka from Namakkal.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label" data-i18n="statFarmers">Happy Farmers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label" data-i18n="statStates">States Covered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">Own</span>
+          <span class="stat-label" data-i18n="statLorries">Lorry Fleet</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="https://wa.me/919344836317?text=Hello%2C%20I%20am%20interested%20in%20purchasing%20chicken%20manure.%20Please%20share%20price%20details." target="_blank" class="btn-whatsapp" data-i18n="btnWhatsapp">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <a href="tel:+919344836317" class="btn-secondary" data-i18n="btnCall">
+          <i class="fa fa-phone"></i> Call Now
+        </a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-img-blob">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80" alt="Green Farm Field" class="hero-img" />
+      </div>
+      <div class="hero-float-card card1">
+        <i class="fa fa-truck"></i>
+        <span data-i18n="floatCard1">Own Lorry Fleet</span>
+      </div>
+      <div class="hero-float-card card2">
+        <i class="fa fa-leaf"></i>
+        <span data-i18n="floatCard2">100% Organic</span>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-dot"></div>
+      <span data-i18n="scrollHint">Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=450&q=80" alt="Transport Lorry Farm" class="about-img main-img reveal" />
+          <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=300&q=80" alt="Organic Manure" class="about-img sub-img reveal" />
+          <div class="about-badge-overlay">
+            <span class="about-badge-num">🚛</span>
+            <span class="about-badge-txt" data-i18n="aboutBadge">Own Lorries</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section-label" data-i18n="aboutLabel">WHO WE ARE</div>
+          <h2 class="section-title" data-i18n="aboutTitle">Bommadevar Transport &amp; Lorry Service</h2>
+          <p data-i18n="aboutP1">
+            We are <strong>பொம்மதேவர் Transport</strong>, based in <strong>Namakkal, Tamil Nadu</strong> — proudly operating our own fleet of transport lorries. We purchase fresh chicken manure directly from licensed poultry farms and deliver it straight to farmers across Tamil Nadu, Kerala, and Karnataka.
+          </p>
+          <p data-i18n="aboutP2">
+            Because we own our lorries, we eliminate middlemen — giving you the freshest quality manure at the lowest price, with reliable and timely delivery on every single order.
+          </p>
+
+          <div class="address-card">
+            <div class="address-item">
+              <i class="fa fa-map-marker-alt"></i>
+              <div>
+                <strong data-i18n="addrLabel">Our Base Location</strong>
+                <span>Namakkal, Tamil Nadu, India</span>
+              </div>
+            </div>
+            <div class="address-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong data-i18n="phoneLabel">Phone &amp; WhatsApp</strong>
+                <span>+91 93448 36317</span>
+              </div>
+            </div>
+            <div class="address-item">
+              <i class="fa fa-envelope"></i>
+              <div>
+                <strong data-i18n="emailLabel">Email</strong>
+                <span>sanjivesubramaniam4154@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-features">
+            <div class="about-feat"><i class="fa fa-check-circle"></i><span data-i18n="feat1">We own our transport lorries</span></div>
+            <div class="about-feat"><i class="fa fa-check-circle"></i><span data-i18n="feat2">Buy direct from poultry farms</span></div>
+            <div class="about-feat"><i class="fa fa-check-circle"></i><span data-i18n="feat3">Sell direct to farmers — no middlemen</span></div>
+            <div class="about-feat"><i class="fa fa-check-circle"></i><span data-i18n="feat4">Based in Namakkal, Tamil Nadu</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="howLabel">HOW IT WORKS</div>
+        <h2 class="section-title" data-i18n="howTitle">Farm to Field — Directly by Us</h2>
+        <p class="section-desc" data-i18n="howDesc">No brokers, no delays. Our lorries handle the whole journey.</p>
+      </div>
+      <div class="how-steps">
+        <div class="how-step reveal">
+          <div class="how-icon">🐓</div>
+          <div class="how-num">01</div>
+          <h3 data-i18n="step1Title">Buy from Farm</h3>
+          <p data-i18n="step1Desc">We purchase fresh, high-quality chicken manure directly from trusted poultry farms in the region.</p>
+        </div>
+        <div class="how-arrow">→</div>
+        <div class="how-step reveal">
+          <div class="how-icon">🚛</div>
+          <div class="how-num">02</div>
+          <h3 data-i18n="step2Title">Load Our Lorries</h3>
+          <p data-i18n="step2Desc">We load and transport using our own fleet of lorries from Namakkal — ensuring freshness every time.</p>
+        </div>
+        <div class="how-arrow">→</div>
+        <div class="how-step reveal">
+          <div class="how-icon">🌾</div>
+          <div class="how-num">03</div>
+          <h3 data-i18n="step3Title">Deliver to Farmer</h3>
+          <p data-i18n="step3Desc">Your order arrives straight to your farm gate — fresh, affordable, and ready for a better harvest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits-section" id="benefits">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="benefitsLabel">WHY CHOOSE US</div>
+        <h2 class="section-title light" data-i18n="benefitsTitle">Nature's Most Powerful Fertilizer</h2>
+        <p class="section-desc light" data-i18n="benefitsDesc">Chicken manure is 3x richer in nutrients than cattle manure — and we bring it fresh from farm to field using our own lorries.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🚛</div>
+          <h3 data-i18n="b1Title">Own Lorry Fleet</h3>
+          <p data-i18n="b1Desc">We own and operate our own transport lorries — no third-party delays, lower cost, faster delivery for you.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🌿</div>
+          <h3 data-i18n="b2Title">Rich in Nitrogen</h3>
+          <p data-i18n="b2Desc">High nitrogen content promotes lush green growth, stronger stems, and faster vegetative development in all crops.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">💧</div>
+          <h3 data-i18n="b3Title">Improves Soil Health</h3>
+          <p data-i18n="b3Desc">Enhances soil structure, moisture retention, and microbial activity for long-term fertile farmland.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🌾</div>
+          <h3 data-i18n="b4Title">Boosts Yield</h3>
+          <p data-i18n="b4Desc">Farmers report up to 40% increase in crop yield after switching to our premium chicken manure fertilizer.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">💰</div>
+          <h3 data-i18n="b5Title">Best Prices</h3>
+          <p data-i18n="b5Desc">Direct from farm, transported by us — no middlemen means the most competitive prices in South India.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">♻️</div>
+          <h3 data-i18n="b6Title">Eco-Friendly</h3>
+          <p data-i18n="b6Desc">Zero chemicals. Zero synthetic additives. 100% natural and safe for soil, water, and future generations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="galleryLabel">OUR FARM &amp; TRANSPORT</div>
+        <h2 class="section-title" data-i18n="galleryTitle">See What We Offer</h2>
+        <p class="section-desc" data-i18n="galleryDesc">From poultry farms to your fields — loaded in our lorries and delivered fresh.</p>
+      </div>
+      <div class="gallery-filters reveal">
+        <button class="filter-btn active" data-filter="all" data-i18n="filterAll">All</button>
+        <button class="filter-btn" data-filter="farm" data-i18n="filterFarm">Farm</button>
+        <button class="filter-btn" data-filter="product" data-i18n="filterProduct">Product</button>
+        <button class="filter-btn" data-filter="delivery" data-i18n="filterDelivery">Delivery</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" data-cat="farm">
+          <img src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=500&q=80" alt="Poultry Farm" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt1">Poultry Farm Source</span></div>
+        </div>
+        <div class="gallery-item reveal large" data-cat="product">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=80" alt="Organic Manure" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt2">Processed Manure</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="farm">
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500&q=80" alt="Fertile Fields" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt3">Treated Fields</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="delivery">
+          <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&q=80" alt="Lorry Delivery" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt4">Our Lorry Delivery</span></div>
+        </div>
+        <div class="gallery-item reveal tall" data-cat="farm">
+          <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?w=500&q=80" alt="Chickens" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt5">Healthy Poultry</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="product">
+          <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=500&q=80" alt="Farm Field" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt6">Rich Farmland</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="delivery">
+          <img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0a7e17?w=500&q=80" alt="Packaging" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt7">Packed &amp; Ready</span></div>
+        </div>
+        <div class="gallery-item reveal" data-cat="product">
+          <img src="https://images.unsplash.com/photo-1459156212016-c812468e2115?w=500&q=80" alt="Green Crops" loading="lazy" />
+          <div class="gallery-overlay"><span data-i18n="galt8">Thriving Crops</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose"><i class="fa fa-times"></i></button>
+    <button class="lightbox-nav prev" id="lightboxPrev"><i class="fa fa-chevron-left"></i></button>
+    <div class="lightbox-img-wrap">
+      <img id="lightboxImg" src="" alt="" />
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+    <button class="lightbox-nav next" id="lightboxNext"><i class="fa fa-chevron-right"></i></button>
+  </div>
+
+  <!-- SERVICE AREAS -->
+  <section class="areas-section" id="areas">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="areasLabel">WHERE WE DELIVER</div>
+        <h2 class="section-title" data-i18n="areasTitle">Our Delivery Areas</h2>
+        <p class="section-desc" data-i18n="areasDesc">Our lorries cover three states from our Namakkal base — delivering to your doorstep.</p>
+      </div>
+      <div class="areas-grid">
+        <div class="area-card reveal" style="--clr:#E63946">
+          <div class="area-map-icon">🗺️</div>
+          <div class="area-flag">🌿</div>
+          <h3 data-i18n="area1Name">Tamil Nadu</h3>
+          <p data-i18n="area1Desc">Our home base — Namakkal. We deliver across Coimbatore, Salem, Madurai, Thanjavur, Trichy, Tirunelveli and all major farming districts.</p>
+          <div class="area-crops">
+            <span data-i18n="crop1">🌾 Paddy</span>
+            <span data-i18n="crop2">🥜 Groundnut</span>
+            <span data-i18n="crop3">🌿 Vegetables</span>
+          </div>
+        </div>
+        <div class="area-card reveal" style="--clr:#2A9D8F">
+          <div class="area-map-icon">🗺️</div>
+          <div class="area-flag">🌴</div>
+          <h3 data-i18n="area2Name">Kerala</h3>
+          <p data-i18n="area2Desc">Serving farms across Thrissur, Palakkad, Ernakulam, Kozhikode, and all major agricultural belts of God's Own Country.</p>
+          <div class="area-crops">
+            <span data-i18n="crop4">🥥 Coconut</span>
+            <span data-i18n="crop5">🍌 Banana</span>
+            <span data-i18n="crop6">🌶️ Spices</span>
+          </div>
+        </div>
+        <div class="area-card reveal" style="--clr:#E9C46A">
+          <div class="area-map-icon">🗺️</div>
+          <div class="area-flag">🌻</div>
+          <h3 data-i18n="area3Name">Karnataka</h3>
+          <p data-i18n="area3Desc">Delivering to Bengaluru Rural, Tumkur, Hassan, Mysuru, Dharwad, Belagavi and major farming communities statewide.</p>
+          <div class="area-crops">
+            <span data-i18n="crop7">🌻 Sunflower</span>
+            <span data-i18n="crop8">🌽 Maize</span>
+            <span data-i18n="crop9">🫘 Pulses</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="testiLabel">HAPPY CUSTOMERS</div>
+        <h2 class="section-title light" data-i18n="testiTitle">What Farmers Say</h2>
+      </div>
+      <div class="testi-track-wrap">
+        <div class="testi-track" id="testiTrack">
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p data-i18n="testi1">"பொம்மதேவர் லாரி சேவை மூலம் உரம் வாங்கியதால் நேரத்தில் வந்தது. தரமும் சிறந்தது. விலையும் மிகவும் குறைவு!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">ர</div>
+              <div><strong>ராஜன் குமார்</strong><span>தஞ்சாவூர், தமிழ்நாடு</span></div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p data-i18n="testi2">"ഞങ്ങളുടെ തെങ്ങ് തോട്ടത്തിലേക്ക് നേരിട്ട് ലോറിയിൽ ഡെലിവറി ചെയ്തു. ഗുണനിലവാരം മികച്ചത്!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">S</div>
+              <div><strong>Suresh Nair</strong><span>Thrissur, Kerala</span></div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p data-i18n="testi3">"ಈ ಕೋಳಿ ಗೊಬ್ಬರ ನಮ್ಮ ಜಮೀನಿಗೆ ತುಂಬಾ ಉಪಯೋಗಕರ. ಲಾರಿಯಲ್ಲಿ ನೇರ ಡೆಲಿವರಿ ಬಂತು. ಧನ್ಯವಾದ!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">M</div>
+              <div><strong>Manjunath Gowda</strong><span>Tumkur, Karnataka</span></div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p data-i18n="testi4">"நம்மக்கல்லில் இருந்து நேரடியாக எங்கள் வயலுக்கு உரம் கொண்டு வந்தனர். தரம் அருமை, விலை மலிவு!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">ப</div>
+              <div><strong>பழனி செல்வம்</strong><span>சேலம், தமிழ்நாடு</span></div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p data-i18n="testi5">"Best organic fertilizer supplier. They own their lorries so delivery is always on time and prices are unbeatable!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">A</div>
+              <div><strong>Abdul Raheem</strong><span>Kozhikode, Kerala</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" data-i18n="contactLabel">GET IN TOUCH</div>
+        <h2 class="section-title" data-i18n="contactTitle">Order Today &amp; Grow Tomorrow</h2>
+        <p class="section-desc" data-i18n="contactDesc">Call, WhatsApp, or email us. Based in Namakkal — we respond within hours!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-cards reveal">
+          <a href="https://wa.me/919344836317?text=Hello%2C%20I%20want%20to%20order%20chicken%20manure.%20Please%20share%20price%20details." target="_blank" class="contact-card whatsapp-card">
+            <div class="contact-card-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="contact-card-info">
+              <h3 data-i18n="ctaWhatsappTitle">WhatsApp Us</h3>
+              <p data-i18n="ctaWhatsappDesc">Fastest way to get a quote &amp; place your order</p>
+              <strong>+91 93448 36317</strong>
+            </div>
+            <i class="fa fa-arrow-right contact-arrow"></i>
+          </a>
+          <a href="tel:+919344836317" class="contact-card phone-card">
+            <div class="contact-card-icon"><i class="fa fa-phone-alt"></i></div>
+            <div class="contact-card-info">
+              <h3 data-i18n="ctaPhoneTitle">Call Us</h3>
+              <p data-i18n="ctaPhoneDesc">Talk directly for bulk orders &amp; pricing</p>
+              <strong>+91 93448 36317</strong>
+            </div>
+            <i class="fa fa-arrow-right contact-arrow"></i>
+          </a>
+          <a href="mailto:sanjivesubramaniam4154@gmail.com" class="contact-card email-card">
+            <div class="contact-card-icon"><i class="fa fa-envelope"></i></div>
+            <div class="contact-card-info">
+              <h3 data-i18n="ctaEmailTitle">Email Us</h3>
+              <p data-i18n="ctaEmailDesc">Send your farm details and requirements</p>
+              <strong>sanjivesubramaniam4154@gmail.com</strong>
+            </div>
+            <i class="fa fa-arrow-right contact-arrow"></i>
+          </a>
+          <div class="contact-card address-card-contact">
+            <div class="contact-card-icon"><i class="fa fa-map-marker-alt"></i></div>
+            <div class="contact-card-info">
+              <h3 data-i18n="ctaAddrTitle">Our Location</h3>
+              <p data-i18n="ctaAddrDesc">Come visit or enquire from our base</p>
+              <strong>Namakkal, Tamil Nadu, India</strong>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" onsubmit="return handleFormSubmit(event)">
+            <h3 data-i18n="formTitle">Send us a Message</h3>
+            <div class="form-group">
+              <label data-i18n="formName">Your Name</label>
+              <input type="text" placeholder="e.g. Rajan Kumar" required />
+            </div>
+            <div class="form-group">
+              <label data-i18n="formPhone">Phone Number</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+            <div class="form-group">
+              <label data-i18n="formState">State</label>
+              <select>
+                <option value="" data-i18n="formStatePlaceholder">Select your state</option>
+                <option value="tn" data-i18n="formTN">Tamil Nadu</option>
+                <option value="kl" data-i18n="formKL">Kerala</option>
+                <option value="ka" data-i18n="formKA">Karnataka</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label data-i18n="formQty">Quantity Required</label>
+              <select>
+                <option value="" data-i18n="formQtyPlaceholder">Select quantity</option>
+                <option value="small" data-i18n="formQty1">1–10 bags (50 kg each)</option>
+                <option value="medium" data-i18n="formQty2">10–50 bags</option>
+                <option value="bulk" data-i18n="formQty3">Bulk / Full Lorry Load</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label data-i18n="formMsg">Message (optional)</label>
+              <textarea placeholder="Tell us your farm location and requirements..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">
+              <i class="fa fa-paper-plane"></i> <span data-i18n="formSubmit">Send Enquiry</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/919344836317?text=Hello%2C%20I%20want%20to%20order%20chicken%20manure." target="_blank" class="float-whatsapp" id="floatWhatsapp" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="float-pulse"></span>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-icon">🚛</span>
+          <div>
+            <span class="logo-main">பொம்மதேவர்</span>
+            <span class="logo-sub" data-i18n="logoSub">Transport &amp; Lorry Service</span>
+          </div>
+        </div>
+        <p data-i18n="footerTagline">Farm to Field — Powered by Our Own Lorries. Serving South India's Farmers.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/919344836317" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:+919344836317" title="Call"><i class="fa fa-phone"></i></a>
+          <a href="mailto:sanjivesubramaniam4154@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footerNav">Quick Links</h4>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#benefits" data-i18n="navBenefits">Benefits</a>
+        <a href="#gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#areas" data-i18n="navAreas">Service Areas</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+      <div class="footer-states">
+        <h4 data-i18n="footerStates">States We Deliver</h4>
+        <span>🌿 Tamil Nadu</span>
+        <span>🌴 Kerala</span>
+        <span>🌻 Karnataka</span>
+      </div>
+      <div class="footer-contact">
+        <h4 data-i18n="footerContact">Contact Info</h4>
+        <p><i class="fa fa-phone"></i> +91 93448 36317</p>
+        <p><i class="fab fa-whatsapp"></i> +91 93448 36317</p>
+        <p><i class="fa fa-envelope"></i> sanjivesubramaniam4154@gmail.com</p>
+        <p><i class="fa fa-map-marker-alt"></i> Namakkal, Tamil Nadu</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footerCopy">© 2024 பொம்மதேவர் Transport &amp; Lorry Service, Namakkal. All rights reserved. | Made with ❤️ for South Indian Farmers</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    <i class="fa fa-check-circle"></i>
+    <span data-i18n="toastMsg">Enquiry sent! We'll contact you soon.</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
